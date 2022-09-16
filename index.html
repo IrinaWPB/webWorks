@@ -1,0 +1,21 @@
+<!--1. HTTP - hypertext Transfer Protocol, the way browsers and servers communicate
+    2. URL - Uniform resource locator, full address to locate a server, uses hostname.
+    3. DNS - Domain Name System. "Phone book for Web", translate host name to servers ip address
+    4. Query string - additional information, that can be a part of url(f.e. search terms)
+    5. Request/Response - User sends a request and gets a response.
+    6. Request is made by client to access resource on a named server.
+    7. Response is made by a server to provide client with requestet resource.
+    8. Header is a part of HTTP request or response that has additional information. For 
+          requests it can be accept, accept-language etc. For
+          response it can be location, date etc
+    9. 1. Host name is translated into ip address with DNS
+       2. Connect to this IP address
+       3. On port 80/443(default if not specified)
+       4. ASk for resource(some/page)
+       5. Get a response
+
+curl -v https://icanhazdadjoke.com/search?term=pirate
+
+dig https://icanhazdadjoke.com/
+   (23.221.222.250)
+
